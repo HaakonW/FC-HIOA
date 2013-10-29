@@ -1,0 +1,15 @@
+html{
+	background-color: #222;
+}
+body{    
+    font-family: georgia;
+	background-color: white;
+    width: 600px;	
+	margin-left: auto;
+    margin-right: auto;
+	padding: 20px;
+}
+
+img{
+	margin-left: -20px;
+}
