@@ -2,35 +2,35 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title> FC HIOAS </title>
+	<title> FC HIOA </title>
 	<link rel= title= type= href=>
 	<style type="text/css"></style>
 </head>
 
 <body>	
 	<header>
-		<h1> Forsiden </h1>
+		<h1> FC HIOA  </h1>
 		
 	</header>
 		<!-- NAVIGATION BAR -->
 	<nav> 
-		<!-- <ul class="NavBar">
+		 <ul class="NavBar">
 			<li>
-		<a class="Link_Bar" href="index.php">HJEM</a>
+		<a class="Link_Bar" href="Forside.php">HJEM</a>
 				</li>
 				<li>
-		 <a class="Link_Bar" href="index.php?page=1">Tabell</a> 
+		 <a class="Link_Bar" href="index.php?page=1">Underside1</a> 
 				</li>
 			<li>
-			<a class="Link_Bar" href="index.php?page=2">Lag</a>
+			<a class="Link_Bar" href="index.php?page=2">Underside2</a>
 			</li>
 				<li>
-		 <a class="Link_Bar" href="index.php?page=3">Nyheter</a>
+		 <a class="Link_Bar" href="index.php?page=3">Underside3</a>
 			</li>
 				<li>
-		 <a class="Link_Bar" href="index.php?page=4">Blabla</a>
+		 <a class="Link_Bar" href="index.php?page=4">Underside4</a>
 			</li>
-		</ul> -->
+		</ul> 
 
 	 </nav>	
 
@@ -80,12 +80,12 @@ if(isset($_GET["page"]))
 	}
 	else
 	{
-		include("Index.php");
+		include("Forside.php");
 	}
 }
 	else
 	{
-	include("Index.php");
+	include("Forside.php");
 	}
 ?>		
 
