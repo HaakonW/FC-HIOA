@@ -16,7 +16,7 @@
 	<nav> 
 		 <ul class="NavBar">
 			<li>
-		<a class="Link_Bar" href="Forside.php">HJEM</a>
+		<a class="Link_Bar" href="index.php">HJEM</a>
 				</li>
 				<li>
 		 <a class="Link_Bar" href="index.php?page=1">Underside1</a> 
